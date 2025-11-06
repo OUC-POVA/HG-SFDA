@@ -14,9 +14,9 @@ This repository contains the official implementation of the paper:
 Member, Sheng Chen, IEEE Life Fellow, Hui Yu, IEEE Senior Member*  
 > To be published in *[IEEE Transactions on Image Processing, 2025]*
 
-🎯 **Goal:** Existing methods normally exploit the pair-wise relation among target samples and attempt to discover their correlations by clustering these samples based on semantic features. The drawbacks of these methods include: 1)~the pair-wise relation is limited to exposing the underlying correlations of two more samples, hindering the exploration of the structural information embedded in the target domain; and 2)~the clustering process only relies on the semantic feature, while overlooking the critical effect of domain shift, \ie, the distribution differences between the source and target domains."
+🎯 **Goal:** Existing methods normally exploit the pair-wise relation among target samples and attempt to discover their correlations by clustering these samples based on semantic features. The drawbacks of these methods include: 1) the pair-wise relation is limited to exposing the underlying correlations of two more samples, hindering the exploration of the structural information embedded in the target domain; and 2) the clustering process only relies on the semantic feature, while overlooking the critical effect of domain shift.
 
-🧠 **Core Idea:** We propose a new SFDA method that exploits the high-order neighborhood relation and explicitly takes the domain shift effect into account. Specifically, we formulate the SFDA as a hypergraph learning problem and construct hyperedges to explore the {deep structural} and context information among multiple samples. Moreover, we integrate a self-loop strategy into the constructed hypergraph to elegantly introduce the domain uncertainty of each sample. By clustering these samples based on hyperedges, both the semantic feature and domain shift effects are considered. We then describe an adaptive relation-based objective to tune the model with soft attention levels for all samples."
+🧠 **Core Idea:** We propose a new SFDA method that exploits the high-order neighborhood relation and explicitly takes the domain shift effect into account. Specifically, we formulate the SFDA as a hypergraph learning problem and construct hyperedges to explore the deep structural and context information among multiple samples. Moreover, we integrate a self-loop strategy into the constructed hypergraph to elegantly introduce the domain uncertainty of each sample. By clustering these samples based on hyperedges, both the semantic feature and domain shift effects are considered. We then describe an adaptive relation-based objective to tune the model with soft attention levels for all samples.
 
 ---
 
@@ -78,6 +78,7 @@ python office31_tar.py --dset a2d  --K 3 --beta 0.25  --file k3b1
 </p>
 
 **Figure 3:** Accuracy (%) of different methods on Office-31, VisDA, DomainNet-126 and PointDA-10 datasets.
+
 ---
 
 ## 📈 Visualization
@@ -85,7 +86,8 @@ python office31_tar.py --dset a2d  --K 3 --beta 0.25  --file k3b1
   <img src="doc/Vis.png" width="95%" alt="Architecture Diagram">
 </p>
 
-**Figure 4:** Visualization of feature distribution on the C$\rightarrow$A in Office-Home.
+**Figure 4:** Visualization of feature distribution on the C→A in Office-Home.
+
 ---
 
 ## 🧩 Citation
@@ -93,5 +95,7 @@ python office31_tar.py --dset a2d  --K 3 --beta 0.25  --file k3b1
 ---
 
 ## 💬 Contact
+
 If you have any questions, please feel free to contact us via email: jiangjinkun@stu.ouc.edu.cn.
+
 ---
