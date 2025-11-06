@@ -18,11 +18,11 @@ Code for our paper **"HG-SFDA: HyperGraph Learning Meets Source-free Unsupervise
   - tqdm
 
 ## Instructions
-#For the ResNet backbone network
+# For the ResNet backbone network
 1. Download Office-Home datasets and change the path in the code to it.
 2. To train the model on the source domain, directly run `train_src_on.sh`.
 3. For source-free domain adaptation, directly run `train_tar_on.sh`.
-#For the ViT-B backbone network
+# For the ViT-B backbone network
 1. Download Office-31 datasets and change the path in the code to it.
 2. To train the model on the source domain, directly run `office31_src.sh`.
 3. For source-free domain adaptation, directly run `office31_tar.sh`.
