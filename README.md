@@ -2,8 +2,7 @@
 
 [![Paper](https://img.shields.io/badge/Paper-PDF-blue)](link_to_paper.pdf)
 [![arXiv](https://img.shields.io/badge/arXiv-xxxx.xxxxx-red)](https://arxiv.org/abs/xxxx.xxxxx)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/your_username/your_repo.svg?style=social)](https://github.com/your_username/your_repo)
+[![Stars](https://img.shields.io/github/stars/your_username/your_repo.svg?style=social)]([https://github.com/your_username/your_repo](https://github.com/jiangkk-cloud?tab=repositories))
 
 ---
 
@@ -65,22 +64,24 @@ python office31_tar.py --dset a2d  --K 3 --beta 0.25  --file k3b1
 <p align="center">
   <img src="doc/Result1.png" width="95%" alt="Architecture Diagram">
 </p>
+**Figure 1:** Accuracy (\%) of different methods on Office-Home dataset..
 
 <p align="center">
   <img src="doc/Result2.png" width="95%" alt="Architecture Diagram">
 </p>
+**Figure 1:** Accuracy (\%) of different methods on Office-31, VisDA, DomainNet-126 and PointDA-10 datasets.
 
+---
 
 ## 📈 Visualization
 <p align="center">
   <img src="doc/Vis.png" width="95%" alt="Architecture Diagram">
 </p>
-
+---
 🧩 Citation
 
 ---
 
 💬 Contact
-
 If you have any questions, please feel free to contact us via email: jiangjinkun@stu.ouc.edu.cn.
 ---
