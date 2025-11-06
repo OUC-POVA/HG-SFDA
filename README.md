@@ -33,9 +33,8 @@ Member, Sheng Chen, IEEE Life Fellow, Hui Yu, IEEE Senior Member*
 - **Self-Loop:** With the constructed hypergraph, we design a novel self-loop strategy to elegantly involve the domain shift into optimization.
 - **Adaptive Scheme:** We describe an adaptive learning scheme to enhance the mainstream objectives by considering different attention levels.
 
-where $H$ is the incidence matrix, $W$ is the hyperedge weight, and $X$ represents node features.
-
 ---
+
 ## 📁 Environments
 
 - **PyTorch:** 1.13.1 with CUDA 11.6
@@ -71,13 +70,12 @@ python office31_tar.py --dset a2d  --K 3 --beta 0.25  --file k3b1
 <p align="center">
   <img src="doc/Result1.png" width="95%" alt="Architecture Diagram">
 </p>
-**Figure 2:** Accuracy (\%) of different methods on Office-Home dataset..
+**Figure 2:** Accuracy ($\%$) of different methods on Office-Home dataset..
 
 <p align="center">
   <img src="doc/Result2.png" width="95%" alt="Architecture Diagram">
 </p>
-**Figure 3:** Accuracy (\%) of different methods on Office-31, VisDA, DomainNet-126 and PointDA-10 datasets.
-
+**Figure 3:** Accuracy ($\%$) of different methods on Office-31, VisDA, DomainNet-126 and PointDA-10 datasets.
 ---
 
 ## 📈 Visualization
@@ -86,6 +84,7 @@ python office31_tar.py --dset a2d  --K 3 --beta 0.25  --file k3b1
 </p>
 **Figure 4:** Visualization of feature distribution on the C$\rightarrow$A in Office-Home.
 ---
+
 ## 🧩 Citation
 
 ---
