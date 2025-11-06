@@ -2,7 +2,7 @@
 
 [![Paper](https://img.shields.io/badge/Paper-PDF-blue)](link_to_paper.pdf)
 [![arXiv](https://img.shields.io/badge/arXiv-xxxx.xxxxx-red)](https://arxiv.org/abs/xxxx.xxxxx)
-[![Stars]([https://img.shields.io/github/stars/your_username/your_repo.svg?style=social](https://github.com/jiangkk-cloud?tab=repositories))]([https://github.com/your_username/your_repo](https://github.com/jiangkk-cloud?tab=repositories))
+[![Stars](https://img.shields.io/github/stars/your_username/your_repo.svg?style=social)]([https://github.com/your_username/your_repo](https://github.com/jiangkk-cloud?tab=repositories))
 
 
 ---
