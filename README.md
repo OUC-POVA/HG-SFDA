@@ -2,7 +2,7 @@
 
 [![Paper](https://img.shields.io/badge/Paper-PDF-blue)](link_to_paper.pdf)
 [![arXiv](https://img.shields.io/badge/arXiv-xxxx.xxxxx-red)](https://arxiv.org/abs/xxxx.xxxxx)
-[![Stars](https://img.shields.io/github/stars/your_username/your_repo.svg?style=social)]([https://github.com/your_username/your_repo](https://github.com/jiangkk-cloud?tab=repositories))
+[![Stars](https://img.shields.io/github/stars/your_username/your_repo.svg?style=social)]([https://github.com/jiangkk-cloud?tab=repositories](https://github.com/jiangkk-cloud?tab=repositories))
 
 ---
 
@@ -49,10 +49,11 @@ where $H$ is the incidence matrix, $W$ is the hyperedge weight, and $X$ represen
 ## 🚀 Training
 ## Using the ResNet backbone network
 ### Source Domain
-python train_src.py --dset p2c --home
+```bash
+python train_src.py --dset p2c --home 
 ### Target Domain
 python train_tar.py --home --dset a2r  --K 3 --file a1b0_seed22 --seed 2022 --gpu_id 3 --alpha 1
----
+
 ## Using the ViT-B backbone network
 ### Source Domain
 python office31_src.py --dset a2d --office31
@@ -64,12 +65,12 @@ python office31_tar.py --dset a2d  --K 3 --beta 0.25  --file k3b1
 <p align="center">
   <img src="doc/Result1.png" width="95%" alt="Architecture Diagram">
 </p>
-**Figure 1:** Accuracy (\%) of different methods on Office-Home dataset..
+**Figure 2:** Accuracy (\%) of different methods on Office-Home dataset..
 
 <p align="center">
   <img src="doc/Result2.png" width="95%" alt="Architecture Diagram">
 </p>
-**Figure 1:** Accuracy (\%) of different methods on Office-31, VisDA, DomainNet-126 and PointDA-10 datasets.
+**Figure 3:** Accuracy (\%) of different methods on Office-31, VisDA, DomainNet-126 and PointDA-10 datasets.
 
 ---
 
@@ -77,11 +78,12 @@ python office31_tar.py --dset a2d  --K 3 --beta 0.25  --file k3b1
 <p align="center">
   <img src="doc/Vis.png" width="95%" alt="Architecture Diagram">
 </p>
+**Figure 4:** Visualization of feature distribution on the C$\rightarrow$A in Office-Home.
 ---
-🧩 Citation
+## 🧩 Citation
 
 ---
 
-💬 Contact
+## 💬 Contact
 If you have any questions, please feel free to contact us via email: jiangjinkun@stu.ouc.edu.cn.
 ---
