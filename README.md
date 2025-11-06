@@ -1,28 +1,46 @@
-# HG-SFDA: HyperGraph Learning Meets Source-free Unsupervised Domain Adaptation
+# 📘 Project Title: [Your Paper Title Here]
 
-Code for our paper **"HG-SFDA: HyperGraph Learning Meets Source-free Unsupervised Domain Adaptation"**
+[![Paper](https://img.shields.io/badge/Paper-PDF-blue)](link_to_paper.pdf)
+[![arXiv](https://img.shields.io/badge/arXiv-xxxx.xxxxx-red)](https://arxiv.org/abs/xxxx.xxxxx)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Stars](https://img.shields.io/github/stars/your_username/your_repo.svg?style=social)](https://github.com/your_username/your_repo)
 
-## Contributions
+---
 
-- We formulate the source-free unsupervised domain adaptation (SFDA) as a hypergraph learning problem and explore the high-order neighborhood relations among target samples to excavate the underlying structural information.
-- With the constructed hypergraph, we design a novel self-loop strategy to elegantly involve the domain shift into optimization.
-- We describe an adaptive learning scheme to enhance the mainstream objectives by considering different attention levels.
+## 🌟 Overview
+This repository contains the official implementation of the paper:
 
-## Code Environment
+> **[Paper Title]**  
+> *Author1, Author2, Author3*  
+> Published in *[Conference/Journal, Year]*
 
-- **PyTorch:** 1.13.1 with CUDA 11.6
-- **Scikit-learn:** 0.24.2
-- **Other dependencies:**
-  - numpy: 1.26.3
-  - cvxpy
-  - tqdm
+🎯 **Goal:** [Briefly describe the motivation of your work — e.g., "Enhancing object detection through adaptive hypergraph modeling for multi-scale feature interaction."]
 
-## Instructions
-### For the ResNet backbone network
-1. Download Office-Home datasets and change the path in the code to it.
-2. To train the model on the source domain, directly run `train_src_on.sh`.
-3. For source-free domain adaptation, directly run `train_tar_on.sh`.
-### For the ViT-B backbone network
-1. Download Office-31 datasets and change the path in the code to it.
-2. To train the model on the source domain, directly run `office31_src.sh`.
-3. For source-free domain adaptation, directly run `office31_tar.sh`.
+🧠 **Core Idea:** [Summarize your key innovation — e.g., "We introduce a multi-scale adaptive hypergraph learning framework that integrates semantic and structural cues across hierarchical feature layers."]
+
+---
+
+## 🏗️ Method Overview
+
+<p align="center">
+  <img src="docs/architecture.png" width="80%" alt="Architecture Diagram">
+</p>
+
+**Figure 1:** Overview of the proposed architecture. (Replace this figure with your own diagram.)
+
+### 🔍 Key Contributions
+- **High-order Relation Modeling:** Capture cross-scale interactions using hypergraph edges.  
+- **Adaptive Fusion:** Weighted strategy to balance shallow and deep feature representations.  
+- **Lightweight Design:** Maintain YOLO efficiency while enhancing semantic structure understanding.  
+
+Mathematical formulation example:
+
+$$
+H = \\sigma( D_v^{-1/2} H W D_e^{-1} H^T D_v^{-1/2} X )
+$$
+
+where $H$ is the incidence matrix, $W$ is the hyperedge weight, and $X$ represents node features.
+
+---
+
+## 📁 Repository Structure
