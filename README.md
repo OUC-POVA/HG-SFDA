@@ -50,15 +50,21 @@ where $H$ is the incidence matrix, $W$ is the hyperedge weight, and $X$ represen
 ## Using the ResNet backbone network
 ### Source Domain
 ```bash
-python train_src.py --dset p2c --home 
+python train_src.py --dset p2c --home
+ ```
 ### Target Domain
+```bash
 python train_tar.py --home --dset a2r  --K 3 --file a1b0_seed22 --seed 2022 --gpu_id 3 --alpha 1
-
+ ```
 ## Using the ViT-B backbone network
 ### Source Domain
+```bash
 python office31_src.py --dset a2d --office31
+```
 ### Target Domain
+```bash
 python office31_tar.py --dset a2d  --K 3 --beta 0.25  --file k3b1
+```
 ---
 
 ## 📊 Experimental Results
