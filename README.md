@@ -24,7 +24,7 @@ Member, Sheng Chen, IEEE Life Fellow, Hui Yu, IEEE Senior Member*
 ## 🏗️ Method Overview
 
 <p align="center">
-  <img src="doc/architecture.pdf" width="80%" alt="Architecture Diagram">
+  <img src="doc/overview1.pdf" width="80%" alt="Architecture Diagram">
 </p>
 
 **Figure 1:** Overview of the proposed architecture. (Replace this figure with your own diagram.)
