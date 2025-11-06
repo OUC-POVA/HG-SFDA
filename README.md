@@ -30,7 +30,7 @@ Member, Sheng Chen, IEEE Life Fellow, Hui Yu, IEEE Senior Member*
 **Figure 1:** Overview of the proposed architecture.
 
 ### 🔍 Key Contributions  
-- **Exploring High-order Neighborhood Relation:**  Different from the existing pair-wise relation-based methods, \eg, NRC, AaD, SF(DA)$^{2}$, we formulate SFDA as a hypergraph learning problem and explore the high-order neighborhood relations to excavate the underlying structural information.
+- **Exploring High-order Neighborhood Relation:**  Different from the existing pair-wise relation-based methods, we formulate SFDA as a hypergraph learning problem and explore the high-order neighborhood relations to excavate the underlying structural information.
 - **Handling Domain Shift by Self-loop:** With the constructed hypergraph, we design a novel self-loop strategy to elegantly involve the domain shift into optimization.
 - **Adaptive Learning Scheme:** We describe an adaptive learning scheme to enhance the mainstream objectives by considering different attention levels.
 
