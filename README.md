@@ -24,7 +24,7 @@ Member, Sheng Chen, IEEE Life Fellow, Hui Yu, IEEE Senior Member*
 ## 🏗️ Method Overview
 
 <p align="center">
-  <img src="doc/Overview.png" width="90%" alt="Architecture Diagram">
+  <img src="doc/Overview.png" width="95%" alt="Architecture Diagram">
 </p>
 
 **Figure 1:** Overview of the proposed architecture.
@@ -37,19 +37,47 @@ Member, Sheng Chen, IEEE Life Fellow, Hui Yu, IEEE Senior Member*
 where $H$ is the incidence matrix, $W$ is the hyperedge weight, and $X$ represents node features.
 
 ---
-# 🚀 3️⃣ Training
+## 📁 Environments
 
-## 环境（推荐）
-```bash
-# 创建 conda 环境（示例）
-conda create -n hyperyolo python=3.10 -y
-conda activate hyperyolo
-pip install -r requirements.txt
+- **PyTorch:** 1.13.1 with CUDA 11.6
+- **Scikit-learn:** 0.24.2
+- **Other dependencies:**
+  - numpy: 1.26.3
+  - cvxpy
+  - tqdm
+---
 
-data/
-  images/
-    train/
-    val/
-  labels/
-    train/
-    val/
+## 🚀 Training
+## Using the ResNet backbone network
+### Source Domain
+python train_src.py --dset p2c --home
+### Target Domain
+python train_tar.py --home --dset a2r  --K 3 --file a1b0_seed22 --seed 2022 --gpu_id 3 --alpha 1
+---
+## Using the ViT-B backbone network
+### Source Domain
+python office31_src.py --dset a2d --office31
+### Target Domain
+python office31_tar.py --dset a2d  --K 3 --beta 0.25  --file k3b1
+---
+
+## 📊 Experimental Results
+<p align="center">
+  <img src="doc/Result1.png" width="95%" alt="Architecture Diagram">
+</p>
+
+<p align="center">
+  <img src="doc/Result2.png" width="95%" alt="Architecture Diagram">
+</p>
+---
+
+## 📈 Visualization
+<p align="center">
+  <img src="doc/Vis.png" width="95%" alt="Architecture Diagram">
+</p>
+---
+🧩 Citation
+
+---
+💬 Contact
+If you have any questions, please feel free to contact us via email: jiangjinkun@stu.ouc.edu.cn.
