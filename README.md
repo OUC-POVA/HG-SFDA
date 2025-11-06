@@ -2,7 +2,7 @@
 
 [![Paper](https://img.shields.io/badge/Paper-PDF-blue)](link_to_paper.pdf)
 [![arXiv](https://img.shields.io/badge/arXiv-xxxx.xxxxx-red)](https://arxiv.org/abs/xxxx.xxxxx)
-[![Stars](https://img.shields.io/github/stars/your_username/your_repo.svg?style=social)]([https://github.com/jiangkk-cloud?tab=repositories](https://github.com/jiangkk-cloud?tab=repositories))
+[![Stars]([https://img.shields.io/github/stars/your_username/your_repo.svg?style=social](https://github.com/jiangkk-cloud?tab=repositories))])
 
 ---
 
@@ -29,9 +29,9 @@ Member, Sheng Chen, IEEE Life Fellow, Hui Yu, IEEE Senior Member*
 **Figure 1:** Overview of the proposed architecture.
 
 ### 🔍 Key Contributions  
-- **High-order Relation Modeling:**  Different from the existing pair-wise relation-based methods, \eg, NRC, AaD, SF(DA)$^{2}$, we formulate SFDA as a hypergraph learning problem and explore the high-order neighborhood relations to excavate the underlying structural information.
-- **Self-Loop:** With the constructed hypergraph, we design a novel self-loop strategy to elegantly involve the domain shift into optimization.
-- **Adaptive Scheme:** We describe an adaptive learning scheme to enhance the mainstream objectives by considering different attention levels.
+- **Exploring High-order Neighborhood Relation:**  Different from the existing pair-wise relation-based methods, \eg, NRC, AaD, SF(DA)$^{2}$, we formulate SFDA as a hypergraph learning problem and explore the high-order neighborhood relations to excavate the underlying structural information.
+- **Handling Domain Shift by Self-loop:** With the constructed hypergraph, we design a novel self-loop strategy to elegantly involve the domain shift into optimization.
+- **Adaptive Learning Scheme:** We describe an adaptive learning scheme to enhance the mainstream objectives by considering different attention levels.
 
 ---
 
@@ -70,18 +70,21 @@ python office31_tar.py --dset a2d  --K 3 --beta 0.25  --file k3b1
 <p align="center">
   <img src="doc/Result1.png" width="95%" alt="Architecture Diagram">
 </p>
-**Figure 2:** Accuracy ($\%$) of different methods on Office-Home dataset..
+
+**Figure 2:** Accuracy (%) of different methods on Office-Home dataset..
 
 <p align="center">
   <img src="doc/Result2.png" width="95%" alt="Architecture Diagram">
 </p>
-**Figure 3:** Accuracy ($\%$) of different methods on Office-31, VisDA, DomainNet-126 and PointDA-10 datasets.
+
+**Figure 3:** Accuracy (%) of different methods on Office-31, VisDA, DomainNet-126 and PointDA-10 datasets.
 ---
 
 ## 📈 Visualization
 <p align="center">
   <img src="doc/Vis.png" width="95%" alt="Architecture Diagram">
 </p>
+
 **Figure 4:** Visualization of feature distribution on the C$\rightarrow$A in Office-Home.
 ---
 
