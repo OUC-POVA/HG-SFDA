@@ -72,7 +72,7 @@ python office31_tar.py --dset a2d  --K 3 --beta 0.25  --file k3b1
   <img src="doc/Result1.png" width="95%" alt="Architecture Diagram">
 </p>
 
-**Figure 2:** Accuracy (%) of different methods on Office-Home dataset..
+**Figure 2:** Accuracy (%) of different methods on Office-Home dataset.
 
 <p align="center">
   <img src="doc/Result2.png" width="95%" alt="Architecture Diagram">
