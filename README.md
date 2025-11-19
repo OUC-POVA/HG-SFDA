@@ -96,10 +96,6 @@ python office31_tar.py --dset a2d  --K 3 --beta 0.25  --file k3b1
   journal={IEEE Transactions on Image Processing}, 
   title={HG-SFDA: HyperGraph Learning Meets Source-free Unsupervised Domain Adaptation}, 
   year={2025},
-  volume={},
-  number={},
-  pages={1-1},
-  keywords={Semantics;Uncertainty;Adaptation models;Training;Prototypes;Optimization;Correlation;Predictive models;Generators;Adaptive learning;Source-free domain adaptation;Unsupervised learning;Hypergraph learning},
   doi={10.1109/TIP.2025.3631461}}
  ```
 ---
