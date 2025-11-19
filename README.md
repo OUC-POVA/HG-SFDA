@@ -1,8 +1,6 @@
 # 📘 [HG-SFDA: HyperGraph Learning Meets Source-free Unsupervised Domain Adaptation]
 
 [![Paper](https://img.shields.io/badge/Paper-PDF-blue)](https://ieeexplore.ieee.org/document/11250877)
-[![arXiv](https://img.shields.io/badge/arXiv-xxxx.xxxxx-red)](https://ieeexplore.ieee.org/document/11250877)
-[![Stars](https://img.shields.io/github/stars/jiangkk-cloud/your_repo.svg?style=social)]([https://github.com/your_username/your_repo](https://github.com/jiangkk-cloud?tab=repositories))
 
 
 ---
@@ -92,7 +90,18 @@ python office31_tar.py --dset a2d  --K 3 --beta 0.25  --file k3b1
 ---
 
 ## 🧩 Citation
-
+```bash
+@ARTICLE{11250877,
+  author={Jiang, Jinkun and Lv, Qingxuan and Li, Yuezun and Du, Yong and Dong, Junyu and Chen, Sheng and Yu, Hui},
+  journal={IEEE Transactions on Image Processing}, 
+  title={HG-SFDA: HyperGraph Learning Meets Source-free Unsupervised Domain Adaptation}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-1},
+  keywords={Semantics;Uncertainty;Adaptation models;Training;Prototypes;Optimization;Correlation;Predictive models;Generators;Adaptive learning;Source-free domain adaptation;Unsupervised learning;Hypergraph learning},
+  doi={10.1109/TIP.2025.3631461}}
+ ```
 ---
 
 ## 💬 Contact
