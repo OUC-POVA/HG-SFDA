@@ -1,7 +1,7 @@
 # 📘 [HG-SFDA: HyperGraph Learning Meets Source-free Unsupervised Domain Adaptation]
 
-[![Paper](https://img.shields.io/badge/Paper-PDF-blue)](link_to_paper.pdf)
-[![arXiv](https://img.shields.io/badge/arXiv-xxxx.xxxxx-red)](https://arxiv.org/abs/xxxx.xxxxx)
+[![Paper](https://img.shields.io/badge/Paper-PDF-blue)](https://ieeexplore.ieee.org/document/11250877)
+[![arXiv](https://img.shields.io/badge/arXiv-xxxx.xxxxx-red)](https://ieeexplore.ieee.org/document/11250877)
 [![Stars](https://img.shields.io/github/stars/jiangkk-cloud/your_repo.svg?style=social)]([https://github.com/your_username/your_repo](https://github.com/jiangkk-cloud?tab=repositories))
 
 
