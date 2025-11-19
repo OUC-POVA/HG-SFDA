@@ -11,7 +11,7 @@ This repository contains the official implementation of the paper:
 > **[HG-SFDA: HyperGraph Learning Meets Source-free Unsupervised Domain Adaptation]**  
 > *Jinkun Jiang, Qingxuan Lv, Yuezun Li, IEEE Member, Yong Du, IEEE Senior Member, Junyu Dong, IEEE
 Member, Sheng Chen, IEEE Life Fellow, Hui Yu, IEEE Senior Member*  
-> To be published in *[IEEE Transactions on Image Processing, 2025]*
+> It has already been published in *[IEEE Transactions on Image Processing, 2025]*
 
 🎯 **Goal:** Existing methods normally exploit the pair-wise relation among target samples and attempt to discover their correlations by clustering these samples based on semantic features. The drawbacks of these methods include: 1) the pair-wise relation is limited to exposing the underlying correlations of two more samples, hindering the exploration of the structural information embedded in the target domain; and 2) the clustering process only relies on the semantic feature, while overlooking the critical effect of domain shift.
 
