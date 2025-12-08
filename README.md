@@ -91,12 +91,15 @@ python office31_tar.py --dset a2d  --K 3 --beta 0.25  --file k3b1
 
 ## 🧩 Citation
 ```bash
-@ARTICLE{11250877,
+@article{jiang2025hg,
+  title={HG-SFDA: HyperGraph Learning Meets Source-Free Unsupervised Domain Adaptation},
   author={Jiang, Jinkun and Lv, Qingxuan and Li, Yuezun and Du, Yong and Dong, Junyu and Chen, Sheng and Yu, Hui},
-  journal={IEEE Transactions on Image Processing}, 
-  title={HG-SFDA: HyperGraph Learning Meets Source-free Unsupervised Domain Adaptation}, 
+  journal={IEEE Transactions on Image Processing},
+  volume={34},
+  pages={7542--7557},
   year={2025},
-  doi={10.1109/TIP.2025.3631461}}
+  publisher={IEEE}
+}
  ```
 ---
 
