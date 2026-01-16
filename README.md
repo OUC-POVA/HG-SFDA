@@ -1,4 +1,4 @@
-# 📘 [HG-SFDA: HyperGraph Learning Meets Source-free Unsupervised Domain Adaptation]
+# 📘 [(IEEE TIP 2025) HG-SFDA: HyperGraph Learning Meets Source-free Unsupervised Domain Adaptation]
 
 [![Paper](https://img.shields.io/badge/Paper-PDF-blue)](https://ieeexplore.ieee.org/document/11250877)
 
